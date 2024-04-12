@@ -1,0 +1,1 @@
+The equation x^2 + y^2 = r^2 represents a circle with centre at origin and radius 'r'. Write a program that reads 'r' from the keyboard and prints the number of points with integer coordinates that lie within the circle.
