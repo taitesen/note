@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-void print_coordinate_of_circle(int radius) {
+void print_coordinate_of_circle(float radius) {
   int counter = 1;
-  for (int i = 0; i <= (radius * radius); i++) {
-    for (int j = 0; j <= (radius * radius); j++) {
+  // since, the center of circle is at origin
+  // i represents abscissa and j represents ordinate
+  for (float i = -radius; i <= radius; i++) {
+    for (float j = -radius; j <= radius; j++) {
       if ((i * i) + (j * j) == (radius * radius)) {
         printf("\nS.no\tx\ty\n");
-        printf("%d\t%d\t%d\n", counter, i, j);
+        printf("%d\t%.2f\t%.2f\n", counter, i, j);
         counter++;
       }
     }
