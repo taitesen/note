@@ -1,5 +1,5 @@
 #include <stdio.h>
-void generate4DigitPerfectSquares() {
+void generatePerfectSquares() {
   for (int i = 4; i < 10;
        i++) { // since the first two squared could only be between 4^2 to 9^2
     int squaredFirstDigit = (i * i);
@@ -23,6 +23,6 @@ void generate4DigitPerfectSquares() {
 }
 
 int main() {
-  generate4DigitPerfectSquares();
+  generatePerfectSquares();
   return 0;
 }
