@@ -1,0 +1,11 @@
+0x617447b01060 0x617447b01030 0
+Address of a[0] = 0x617447b01030 holds ---> 0
+Address of a[1] = 0x617447b01034 holds ---> 1
+Address of a[2] = 0x617447b01038 holds ---> 2
+Address of a[3] = 0x617447b0103c holds ---> 3
+Address of a[4] = 0x617447b01040 holds ---> 4
+Address of p[0] = 0x617447b01060 holds ---> 0x617447b01030 which dereferences to --> 0
+Address of p[1] = 0x617447b01068 holds ---> 0x617447b01034 which dereferences to --> 1
+Address of p[2] = 0x617447b01070 holds ---> 0x617447b01038 which dereferences to --> 2
+Address of p[3] = 0x617447b01078 holds ---> 0x617447b0103c which dereferences to --> 3
+Address of p[4] = 0x617447b01080 holds ---> 0x617447b01040 which dereferences to --> 4
