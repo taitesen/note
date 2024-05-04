@@ -1,3 +1,7 @@
+/*
+ * The other way around
+ */
+
 #include <stdio.h>
 
 int main() {
@@ -5,7 +9,10 @@ int main() {
   static char *msg[7];
   static char arr[7];
   fgets(arr, sizeof(arr), stdin);
-  *msg = arr;
+  for (int i = 0; i < 7; i++) {
+    msg[i] = &arr[i];
+  }
+
   puts(*msg);
 
   for (int i = 0; i < 7; i++) {
